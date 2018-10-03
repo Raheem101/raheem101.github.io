@@ -1,0 +1,56 @@
+header {
+	background-image: url(images/witness.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 650px;
+}
+
+
+nav{
+	background-color: black;
+
+}
+
+nav .row .col:hover{
+	background-color: blue;
+}
+
+img{
+	width: 100%;
+	 background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+}
+
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: #900;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+body:before {
+    top: 0;
+
+body:after {
+    bottom: 0;
+}
+body {
+    border-left: 10px solid #900;
+    border-right: 10px solid #900;  
+}
+
+title{
+	margin-top: : 100px;
+}
+
+
+
+
